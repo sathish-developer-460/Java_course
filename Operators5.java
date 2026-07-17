@@ -1,4 +1,4 @@
-class Operatots5 {
+class Operators5 {
     public static void main(String[] args) {
         int a = 10;
         int b = 3;
