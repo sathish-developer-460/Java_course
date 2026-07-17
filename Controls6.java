@@ -137,17 +137,17 @@ class ControlStatements {
         // example1
         int number = 20;
         // Switch expression
-        switch (number) { 
-                       // 
-            ase statements
-            // 
+        switch (number) {
+            // case statements
             case 10:
                 System.out.println("Number is 10");
                 break;
             case 20:
                 System.out.println("Number is 20");
-                break; // if  we give break statement then it will not execute the next case statement and 
-                // if we give break statement then it will execute the next case statement also (30).
+                break; // if we give break statement then it will not execute the next case statement
+                       // and
+            // if we give break statement then it will execute the next case statement also
+            // (30).
             case 30:
                 System.out.println("Number is 30");
                 break;
