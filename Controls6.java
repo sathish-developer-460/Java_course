@@ -11,7 +11,7 @@
         * i) do while loop
         * ii) while loop
         * iii) for loop
- * 4.Jump statements
+ * 4.Jumping statements
         * i) break statement
         * ii) continue statement
  * 
@@ -74,11 +74,61 @@
         * }
  * 
  * # Looping Statements :-
- * When you know exactly how many imes you want to loop throwh
- * In computer programming, loops are used to repeat a block 
+ * When you know exactly how many imes you want to loop throwh a block of code, use the for loop instead of a 
+ * In computer programming, loops are used to repeat a block of code. For example, if you want to show a message 100 times, then rather than typing the same code 100 times, you can usea loop.
     * 1) For loop
     * 2) While loop
     * 3) Do-while loop
+    * 
+    *1) For Loop : Java for lop is used to run a block of code for a certain number of times.
+    * syntax: 
+    * for(initializationExpression; testExpression; updateExpression){
+    * //body of the loop
+    * }
+    * 
+    * 2) While Loop: The while loop loops through a block of code as long as a specified condition is true
+    * syntax: 
+    * while(condition){
+    * //code block to be executed
+    * }
+    * 
+    * 3) do while loop : The do/while loop is a variant of the while loop. This loop will excute the code block once,
+    * before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+    * Syntax: 
+    * do{
+    * //code block to be excuted
+    * }
+    * while(condition)
+    * 
+    * code: 
+    * The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:
+    * 
+    * int i=0;
+    * do{
+    * System.out.println(i);
+    * i++;
+    * }
+    * while (i<5)
+    * 
+    * 
+# Jumping Statements:-
+    1. Java Break: The break statement can also be used to jump out of a loop.
+    code:
+    for(int i=0; i<10; i++){
+    if(i == 4){
+    break;
+    }
+    System.out.println(i);
+    }
+    2. Java Continue: The continue statement breaks one iterates 
+    Code: 
+        for(int i=0; i<10; i++){
+        if(i == 4){
+        continue;
+        }
+        System.out.println(i);
+        }
+    *   
  */
 
 class ControlStatements {
@@ -153,6 +203,48 @@ class ControlStatements {
                 break;
             default:
                 System.out.println("Number is not 10, 20, or 30");
+        }
+
+        // 4. Loops
+        // i. ForLoop
+        int n = 5;
+        for (int i = 1; i <= n; ++i) {
+            System.out.println("Java is fun i=" + i);
+        }
+        // ii. while loop
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i);
+            i++;
+        }
+        // iii. do while loop example1
+        int i = 0;
+        do {
+            System.out.println(i); // 0 1 2 3 4
+            i++;
+        } while (i < 5);
+        // do whle loop example2
+        int i = 0;
+        do {
+            System.out.println(i); // 0
+            i++;
+        } while (i < 0);
+
+        // Jumpting Statements
+        // 1. beak example
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+                break;
+            }
+            System.out.println(i); // 0 1 2 3
+        }
+        // 2. continue example (skip the current iteration and excute the remaining
+        // numbers)
+        for (int i = 0; i < 10; i++) {
+            if (i == 4) {
+                continue; // skip the 4th number iteration
+            }
+            System.out.println(i); // 0 1 2 3 5 6 7 8 9
         }
     }
 }
