@@ -1,5 +1,5 @@
 /* Java Strings
-    In java, a string is a sequence of characters. For example, "kiran" is a string containing a sequence of characters 'k', 'i', 'r', 'a', and 'n'.
+    In java, a string is a sequence of characters. For example, "Sathish" is a string containing a sequence of characters 's', 'a', 't', 'h', 'i', 's' and 'h'.
     we use double quotes to represents a string in Java.
     //create a string 
     String Name = "JavaLife";
