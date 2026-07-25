@@ -40,7 +40,7 @@
 //     }
 // }
 
-//It is not best practice to to give values to object properties here we overcome this issue with using constructor function 
+//It is not best practice to give values to object properties here we overcome this issue by using the constructor function 
 // Creating Constructor Function
 // syntax of Constructor Function:-
 // public ClassName(parameters) { ... }
