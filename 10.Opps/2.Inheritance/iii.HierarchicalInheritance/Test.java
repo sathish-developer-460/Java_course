@@ -1,3 +1,8 @@
+/*
+Hierarchical Inheritace :- 
+i. It has Single Base class (Single Parent Class) and multiple child classes
+Ex:- Owner- ChaiShop, XeroxShop
+ */
 
 //3.Concept of Hierarchical inheritance
 

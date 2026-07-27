@@ -1,3 +1,12 @@
+/*
+Hybrid Inheritance:-
+i. Mix of two or more types of inheritance.
+ii. Owner - ChaiShop (-> Shop), XeroxShop
+ex:- 
+Owner has two child => ChaiShop, XeroxShop
+ChaiShop has one Child=> Shop.
+*/
+
 //Run this function from the terminal:- 
 //javac Test.java
 //java D

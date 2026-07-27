@@ -1,3 +1,9 @@
+/*
+ Single Inheritance:-
+i. It has One Parent claass and One Child class
+ii. example Owner - ChaiShop
+ */
+
 //1. Single Inheritance example
 class Parent {
     public void print_karo() { // print_karo is a method

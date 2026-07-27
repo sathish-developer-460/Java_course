@@ -1,4 +1,3 @@
-
 // //4. Multiple Inheritance
 
 // // //1st approach
