@@ -91,6 +91,6 @@
 public class AccessModifiersExample {
     public static void main(String[] args) {
         ChaiShop branch1 = new ChaiShop();
-        branch1.disply(); // calling the method of ChaiShop class
+        branch1.display(); // calling the method of ChaiShop class
     }
 }

@@ -87,7 +87,7 @@ public class ChaiShop extends Owner {
         System.out.println("Private Method");// Private Method
     }
 
-    void disply() {
+    void display() {
         publicMethod();
         protectedMethod();
         defaultMethod();
