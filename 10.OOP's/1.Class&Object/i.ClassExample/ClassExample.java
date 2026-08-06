@@ -19,13 +19,13 @@
 //Example1:-
 
 class Car {
-    String brand = "Audi"; // attribute1
+    String brand; // attribute1
     int speed = 120; // attribute2
 
     // method
     void accelerate() {
         System.out.println(brand + " is accelerating at " + speed + " km/hr ");
-        // Audi is accelerating at 120 km/hr
+        // null is accelerating at 120 km/hr
     }
 }
 
@@ -35,7 +35,7 @@ class ClassExample {
         Car car1 = new Car(); // creating an object of the class Car
         car1.accelerate(); // calling the method of the object
         System.out.println(car1.brand + " is accelerating at " + car1.speed + " km/hr ");
-        // Audi is accelerating at 120 km/hr
+        // null is accelerating at 120 km/hr
 
     }
 }
