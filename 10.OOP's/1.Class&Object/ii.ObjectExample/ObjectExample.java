@@ -10,8 +10,8 @@ Key Points about Objects:
 
 //Example 1:-
 // class Car {
-//     String brand; // attribute1
-//     int speed = 100; // attribute2
+//     String brand; // attribute1 or Instance variable
+//     int speed = 100; // attribute2 or Instance variable
 
 //     // method
 //     void accelerate(String brand, int speed) {
