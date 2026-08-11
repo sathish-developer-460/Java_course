@@ -15,7 +15,7 @@ class Child extends Parent {
 
 public class DefaultConstructor {
     public static void main(String[] args) {
-        // creating an objects of child class
+        // creating an object of child class
         Child child1 = new Child("From Child");
     }
 }
