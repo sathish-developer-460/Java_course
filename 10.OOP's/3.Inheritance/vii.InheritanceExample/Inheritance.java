@@ -128,3 +128,17 @@ class InheritanceExample1 {
         o1.boom();
     }
 }
+
+/*
+ * Output:-
+ * Boomm will executed here.
+ * Jalsaakottu
+ * 30
+ * 5
+ * Boomm will executed here.
+ * Animuthyam
+ * 123
+ * Animuthyam
+ * 123
+ * Boomm will executed here.
+ */
