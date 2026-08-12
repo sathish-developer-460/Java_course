@@ -34,7 +34,7 @@ class D extends A {
 // create object for B then we can access B & A classes properties
 
 // Driver Class
-public class Test {
+public class HierarchicalInheritanceExample2 {
     public static void main(String[] args) {
         // class name object name = newkeyword Constructor()
         B obj_B = new B();
@@ -51,3 +51,12 @@ public class Test {
 
     }
 }
+
+/*
+ * Calss A
+ * Calss B
+ * Calss A
+ * Calss C
+ * Calss A
+ * Class D
+ */

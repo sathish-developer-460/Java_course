@@ -54,7 +54,7 @@ class ChaiShop implements Owner, ChaiPodiSupplier {
     }
 }
 
-class MultipleInheritanceExample {
+class MultipleInheritanceExample2 {
     public static void main(String[] args) {
         ChaiShop branch1 = new ChaiShop();
         System.out.println(branch1.ownerName); // Animuthyam
@@ -63,3 +63,11 @@ class MultipleInheritanceExample {
         branch1.display();
     }
 }
+
+/*
+ * Output:-
+ * Animuthyam
+ * Sathish
+ * Booom
+ * 1
+ */

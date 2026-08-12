@@ -44,3 +44,9 @@ class MultiLevelInheritanceExample {
 
     }
 }
+/*
+ * RoomNumber of Room Class :3
+ * NoOfChairs of Room Class :2
+ * OwnerName of Owner Class From Room Class :Animuthyam
+ * branchName of the ChaiShop Class From the Room Class :Bahubali Adda
+ */

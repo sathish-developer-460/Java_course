@@ -56,3 +56,7 @@ public class Test { // Test is the Main
         obj.execute(16);
     }
 }
+/*
+ * Output:
+ * Hello.. From Implementation Class!!16
+ */

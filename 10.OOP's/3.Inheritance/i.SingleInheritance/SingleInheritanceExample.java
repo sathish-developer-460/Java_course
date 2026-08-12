@@ -32,6 +32,7 @@ ii. example:  Car inherits from Vehicle.
 class Vehicle {
     int speed;
 
+    // method to display speed of vehicle
     void displaySpeed() {
         System.out.println("Speed of vehicle is: " + speed + " km/h");
     }
@@ -40,6 +41,7 @@ class Vehicle {
 class Car extends Vehicle {
     String brand;
 
+    // method to display brand of car
     void displayBrand() {
         System.out.println("Brand of car is: " + brand);
     }
@@ -47,7 +49,10 @@ class Car extends Vehicle {
 
 class SingleInheritanceExample {
     public static void main(String[] args) {
-        // creating an object of Car class
+        /*
+         * creating an object of Car class and accessing methods from both parent and
+         * child classes
+         */
         Car car1 = new Car();
         car1.brand = "Toyota";
         car1.speed = 180;
