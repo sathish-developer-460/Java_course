@@ -49,10 +49,15 @@ class ChaiShop extends Owner {
 }
 
 // class Main{ // or
-class MethodOverridingExample {
+class MethodOverridingExample1 {
     public static void main(String[] args) {
         // creating four objects(branch1)
         ChaiShop branch1 = new ChaiShop("Bahubali Adda", 10, 5, 2);
         branch1.fun();// calling the method
     }
 }
+
+/*
+Output:-
+Fun Method: 1
+*/

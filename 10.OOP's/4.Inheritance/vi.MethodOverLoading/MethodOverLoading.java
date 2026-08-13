@@ -80,3 +80,12 @@ class MethodOverLoadingExample {
 
     }
 }
+
+/*
+Output:-
+Fun Method: 1
+Fun Method: 2
+Fun Method: 2 + 3 = 5
+Fun Method:a =2 And b =Sathish
+Fun Method:a =Sathish And b =2
+*/
