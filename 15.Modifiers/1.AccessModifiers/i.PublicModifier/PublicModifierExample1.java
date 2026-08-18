@@ -13,14 +13,24 @@ parts of a program interact.
  
  
 #Table  
-Types of Access Modifiers
+ Access Modifiers:- Access Modifiers are 4 Types
 i.public : class(Same Class)+ same Package(Same Folder Structure)+ subClass(extends or in different package)+ Other class(different package or outside package);
 ii.protected : class (Same Class)+ same Package(Same Folder Structure) + subClass(extends or in different package)
 iii.default : class (Same Class)+ same Package(Same Folder Structure)
 iv.private : class (Same Class)
  
 
+
+ Access Modifiers:- Access Modifiers are 4 Types
+ * 1. public -> accessible everywhere
+ * 2. protected -> accessible in same package + subclasses (even in other
+ * packages)
+ * 3. default -> (no keyword) accessible only within the same package
+ * 4. private -> accessible only within the same class
+ * 
 */
+
+
 
 /*
 1. Public Modifier 
