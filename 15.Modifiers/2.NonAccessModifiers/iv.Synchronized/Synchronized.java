@@ -1,15 +1,23 @@
 /*
- * i. Ensures thread safety by allowing only one thread to access a block of
- * code or method at a time.
- * ii. Prevents race conditions in multi-threaded environment.
+4. Synchronized Modifier 
+• Description: The synchronized modifier ensures that only one thread can access a 
+method or block at a time. 
+• It is used to avoid race condition 
+
+• Race Condition: 
+A race condition occurs when two or more threads or processes try to access and 
+modify the same resource (such as a variable or file) simultaneously, leading to 
+unpredictable or incorrect results.
  */
 
 class Counter {
     private int count = 0;
 
-    synchronized void increment() {
+    synchronized void increment() { //Thread-safe
         count++;
-
+    }
+    int getCount(){
+        return count;
     }
 }
 
