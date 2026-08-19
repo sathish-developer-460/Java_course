@@ -1,98 +1,48 @@
 /*
- * #abstract
- * i. if a class is abstract class we can not directly create it's object.
- * AbstractExample.java:19: error: A is abstract; cannot be instantiated
- * A c = new A();
- * ^
- * 1 error
- * ii. it should be extended by other class.
- * iii. Abstract class can contain both abstract methods and normal methods.
- * iv. Abstract methods are method without implementation(only declaration).
+3. Abstract Modifier 
+The abstract modifier is used for incomplete classes or methods. These classes or methods 
+must be implemented in subclasses. 
+ 
+Abstract Classes: 
+• Cannot be instantiated. 
+• Can have both abstract and concrete (non-abstract) methods. 
+• Used when some behavior is common but certain details vary across subclasses. 
  */
 
-// //Example1:-
+/* Example1:- */
 
-// abstract class A {
-// final int b;
+abstract class Vehicle{
+  abstract void start(); //Abstract method
+  void stop(){ //concrete method
+    System.out.println("Vehicle Stopped.");
+  }
+}
+class Car extends Vehicle{
+  void start(){ //Implement abstract method
+    System.out.println("Car started.");
+  }
+}
+class AbstractExample{
+  public static void main(String[] args){
+    //creating an object of Vehicle class
+    Car car1= new Car();
+    car1.start(); 
+    car1.stop();
+  }
+}
+/*
+Car started.
+Vehicle Stopped.
+*/
 
-// A() {
-// b = 5;
-// }
-// }
-
-// class AbstractExample {
-// public static void main(String[] args) {
-// A c = new A();
-
-// System.out.println(c.b); // 5
-// }
-// }
-// // output:-
-// // AbstractExample.java:19: error: A is abstract; cannot be instantiated
-// // A c = new A();
-// // ^
-// // 1 error
-
-// //Example 2:- it should be extended by other class.
-
-// abstract class A {
-// int b = 5;
-// }
-
-// // D is the child class for parent (A)
-// class D extends A {
-// }
-
-// class AbstractExample {
-// public static void main(String[] args) {
-// A c = new D();
-
-// System.out.println(c.b);// 5
-// }
-// }
-
-// //Example 3:- Abstract class can contain both abstract methods and normal
-// methods.
-// //Make sure Abstract Methods are override in their children classes.
-
-// abstract class A {
-// int b = 5;
-
-// abstract void fun();// abstract Method
-
-// // normal method
-// void bun() {
-// System.out.println(2); // 2
-// };
-// }
-
-// class D extends A {
-// @Override
-// void fun() {
-// System.out.println("Hello");// Hello
-// }
-// }
-
-// class AbstractExample {
-// public static void main(String[] args) {
-// D c = new D();
-// c.fun();
-// c.bun();
-// System.out.println(c.b);// 5
-// }
-// }
-// // output
-// // Hello
-// // 2
-// // 5
-
-//Example 4:-
+/* Example 2:- */
 abstract class Animal {
     // Abstract method
-    abstract void sound();
+    abstract void sound(); //no body so we should write abstract to method and class
 
     // Concrete method
     void eat() {
+        //body
         System.out.println("This animal eats food."); // This animal eats food.
     }
 }
@@ -111,3 +61,8 @@ public class AbstractExample {
         myDog.eat(); // This animal eats food.
     }
 }
+/*
+Output:-
+Dog barks.
+This animal eats food.
+*/
