@@ -1,3 +1,4 @@
+
 /*
  * #Encapsulation
  * i. The process of wrapping data (variables) and methods (functions) into a
