@@ -4,12 +4,13 @@
 Abstraction is the process of hiding the implementation details of a system and exposing 
 only the essential features. It allows a user to interact with an object without knowing how it 
 works internally. 
-Key Features of Abstraction 
+Key Features of Abstraction:-
+
 1. Focus on Essentials: Only the necessary details are exposed to the user. 
 2. Hides Complexity: The implementation is hidden, and only the interface is visible. 
 3. Implemented Using: 
-o Abstract Classes: Classes with at least one abstract method. 
-o Interfaces: Fully abstract blueprints for classes.
+    o Abstract Classes: Classes with at least one abstract method. 
+    o Interfaces: Fully abstract blueprints for classes.
 */
 abstract class Vehicle {
     String brandName; // Single Variable
